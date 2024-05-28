@@ -15,11 +15,11 @@ fetchData()
   },[])
   return (
     <div className="">
-     <div className="bg-black h-screen flex justify-center items-center flex-col">
+     <div className="bg-black h-screen flex justify-center items-center flex-col px-10">
      <button  onClick={fetchData} className="bg-pink-600 px-4 py-2 rounded-2xl font-semibold text-xl border border-white">Generate Cat Fact</button>
-     <div className="w-[500px] px-5">
+     
      <h1 className="text-lg mt-10 text-white ">{catFact}</h1>
-     </div>
+     
      </div>
     </div>
   );
